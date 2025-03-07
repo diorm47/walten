@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Avenir Next300";
+    src: url("../assets/fonts/avenir-next/AvenirNextCyr-Light.ttf")
+      format("truetype");
+  }
+
+@font-face {
+  font-family: "Avenir Next400";
+  src: url("../assets/fonts/avenir-next/AvenirNextCyr-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir Next500";
+  src: url("../assets/fonts/avenir-next/AvenirNextCyr-Medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Avenir Next700";
+  src: url("../assets/fonts/avenir-next/AvenirNextCyr-Bold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Berthold Akzidenz Grotesk";
+  src: url("../assets/fonts/Akzidenz-Grotesk/AkzidenzGroteskBE-Md.otf")
+    format("opentype");
+}

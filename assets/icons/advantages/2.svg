@@ -1,0 +1,20 @@
+<svg width="112.000000" height="112.000000" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1170_1160">
+			<rect id="chart-column-solid 1" rx="0.000000" width="63.000000" height="63.000000" transform="translate(24.500000 24.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip1170_1159">
+			<rect id="sitemap-solid 1" rx="7.500000" width="111.000000" height="111.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="sitemap-solid 1" rx="7.500000" width="111.000000" height="111.000000" transform="translate(0.500000 0.500000)" fill="#5582A0" fill-opacity="0"/>
+	<g clip-path="url(#clip1170_1159)">
+		<rect id="chart-column-solid 1" rx="0.000000" width="63.000000" height="63.000000" transform="translate(24.500000 24.500000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip1170_1160)">
+			<path id="Vector" d="M28 28C30.21 28 32 29.78 32 32L32 74C32 75.1 32.9 76 34 76L84 76C86.21 76 88 77.78 88 80C88 82.21 86.21 84 84 84L34 84C28.47 84 24 79.52 24 74L24 32C24 29.78 25.78 28 28 28ZM44 52C46.21 52 48 53.78 48 56L48 64C48 66.21 46.21 68 44 68C41.78 68 40 66.21 40 64L40 56C40 53.78 41.78 52 44 52ZM60 44L60 64C60 66.21 58.21 68 56 68C53.78 68 52 66.21 52 64L52 44C52 41.78 53.78 40 56 40C58.21 40 60 41.78 60 44ZM68 48C70.21 48 72 49.78 72 52L72 64C72 66.21 70.21 68 68 68C65.78 68 64 66.21 64 64L64 52C64 49.78 65.78 48 68 48ZM84 36L84 64C84 66.21 82.21 68 80 68C77.78 68 76 66.21 76 64L76 36C76 33.78 77.78 32 80 32C82.21 32 84 33.78 84 36Z" fill="#003448" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>
