@@ -12,6 +12,7 @@
         <nav>
           <div class="nav_wrapper container">
             <div class="nav_left">
+              <img  onclick="toggleMenu()" class="menu_btn" src="./assets/icons/menu-icon.svg" alt="" />
               <a href="./index.html">
                 <img class="nav_logo" src="./assets/icons/logo.png" alt="" />
               </a>
@@ -24,7 +25,12 @@
             <div class="nav_right">
               <a href="#"><img src="./assets/icons/viber.svg" alt="" /></a>
               <a href="#"><img src="./assets/icons/tg.svg" alt="" /></a>
-              <a href="tel:+971 (50) 973 3497"><p>+971 (50) 973 3497</p></a>
+              <a class="nav_phone_mob" href="tel:+971 (50) 973 3497"
+                ><img src="./assets/icons/phone.svg" alt=""
+              /></a>
+              <a class="nav_phone_desc" href="tel:+971 (50) 973 3497"
+                ><p>+971 (50) 973 3497</p></a
+              >
               <button class="main_btn">Оставить заявку</button>
             </div>
           </div>
@@ -283,7 +289,7 @@
                 </li>
               </ul>
 
-              <p>
+              <p class="mob_prez">
                 Walton Global – это профессиональное сопровождение, полная
                 прозрачность и поддержка на каждом этапе инвестирования. <br />
                 Присоединяйтесь к нашему инвестиционному сообществу и создавайте
@@ -671,7 +677,7 @@
               доступными исключениями из него и на основании документации,
               подготовленной в соответствии с действующими правовыми нормами.
             </p>
-            <div class="footer_links">
+            <div class="footer_links policy">
               <a href="#"
                 ><h3>Политика конфиденциальности</h3>
                 <img src="./assets/icons/link.svg" alt=""
@@ -680,6 +686,38 @@
           </div>
         </div>
       </footer>
+    </div>
+
+    <div class="overlay" onclick="toggleMenu()"></div>
+
+    <div class="mob_menu">
+      <div class="mob_menu_top">
+        <a href="./index.html"
+          ><img class="menu_icon" src="./assets/icons/logo.png" alt=""
+        /></a>
+        <img
+          class="close_menu"
+          onclick="toggleMenu()"
+          src="./assets/icons/close-menu.svg"
+          alt=""
+        />
+      </div>
+      <div class="nav_menu">
+        <a href="#"><p>продукты</p></a>
+        <a href="#"><p>как это работает?</p></a>
+        <a href="#"><p>о нас</p></a>
+      </div>
+      <div class="mob_menu_btm">
+        <a class="nav_phone_desc" href="tel:+971 (50) 973 3497"
+          ><p>+971 (50) 973 3497</p></a
+        >
+        <div class="mob_menu_btm_icons">
+          <a href="#"><img src="./assets/icons/viber.svg" alt="" /></a>
+          <a href="#"><img src="./assets/icons/tg.svg" alt="" /></a>
+        </div>
+
+        <button class="main_btn">Оставить заявку</button>
+      </div>
     </div>
 
     <script src="./scripts/script.js"></script>

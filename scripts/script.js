@@ -24,3 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+function toggleMenu() {
+  document.querySelector(".overlay").classList.toggle("visible_overlay");
+  document.querySelector(".mob_menu").classList.toggle("visible_mob_menu");
+}

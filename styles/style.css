@@ -32,6 +32,7 @@ textarea {
 header {
   background: url(../assets/images/header-bg.png);
   background-size: cover;
+  background-position: center;
   padding-bottom: 288px;
 }
 
@@ -452,6 +453,7 @@ nav {
   margin: 0 auto;
   background: url(../assets/images/man.png);
   background-size: cover;
+  background-position: center;
 }
 
 .president_desc {
@@ -1146,4 +1148,417 @@ footer a h3:hover,
 .nav_right img:hover {
   transition: all 0.4s ease;
   opacity: 0.7;
+}
+
+.nav_phone_mob,
+.menu_btn {
+  display: none;
+}
+
+.overlay {
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 1;
+}
+
+.mob_menu {
+  width: 90%;
+  height: 100vh;
+  padding: 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+
+  background: rgb(0, 52, 72);
+  z-index: 1;
+}
+
+.menu_icon {
+  width: 128px;
+}
+
+.mob_menu_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.mob_menu .nav_menu {
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+  padding-bottom: 32px;
+  border-bottom: 0.5px solid rgb(211, 206, 190);
+}
+.mob_menu .nav_menu p {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+}
+
+.mob_menu_btm {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 24px;
+}
+
+.mob_menu_btm p {
+  color: rgb(255, 255, 255);
+  font-family: Avenir Next400;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 28px;
+}
+.mob_menu_btm_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 52px;
+  gap: 24px;
+}
+.mob_menu_btm_icons img {
+  width: 32px;
+  height: 31px;
+}
+
+.mob_menu_btm .main_btn {
+  text-align: center;
+  height: 45px;
+  padding: 0;
+}
+
+.mob_menu {
+  transition: all 0.4s ease;
+  transform: translateX(-100%);
+}
+
+.visible_mob_menu {
+  transition: all 0.4s ease;
+  transform: translateX(0);
+}
+
+.overlay {
+  display: none;
+}
+.visible_overlay {
+  display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .footer_top {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .nav_wrapper .nav_phone_desc {
+    display: none;
+  }
+  .nav_phone_mob {
+    display: flex;
+  }
+  .nav_logo {
+    width: 180px;
+  }
+  .nav_right,
+  .nav_left {
+    gap: 24px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menu_btn {
+    display: block;
+  }
+  .main_wrapper {
+    overflow: hidden;
+  }
+  .nav_logo {
+    width: 128px;
+  }
+  .nav_left .nav_menu,
+  .nav_right .main_btn {
+    display: none;
+  }
+  .nav_right img {
+    width: 24px;
+  }
+  nav {
+    padding: 18px 0;
+  }
+  nav {
+    margin-bottom: 150px;
+  }
+  header {
+    background: url(../assets/images/header-bg-mob.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 150px;
+  }
+  .header_content {
+    padding: 32px;
+  }
+  br {
+    display: none;
+  }
+  .header_content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 30px;
+
+    line-height: 120%;
+    letter-spacing: 1.2%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .header_btn {
+    width: 100%;
+  }
+  .header_cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 12px;
+  }
+  .header_card {
+    padding: 32px 10px;
+  }
+  .header_card_desc div:last-child {
+    margin-bottom: 0;
+  }
+  .header_card_desc {
+    margin-bottom: 32px;
+  }
+  .header_cards {
+    padding-bottom: 24px;
+  }
+  .about_company {
+    display: flex;
+    flex-direction: column;
+  }
+  .about_left h2,
+  .about_left h2 span {
+    font-size: 32px;
+  }
+  .about_right {
+    padding-left: 0;
+    border-left: none;
+    border-top: 1px solid rgb(211, 206, 190);
+    padding-top: 24px;
+  }
+  .about_company {
+    padding-bottom: 70px;
+  }
+  .block_title h2 {
+    font-size: 35px;
+  }
+  .steps_wrapper,
+  .steps_5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .step_last {
+    width: 100%;
+    height: auto;
+  }
+
+  .president_desc h2 {
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: Berthold Akzidenz Grotesk;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1.2%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .president_desc {
+    padding: 24px;
+  }
+
+  .president_desc h3 {
+    margin-top: 106px;
+  }
+  .mob_prez {
+    max-width: 227px !important;
+  }
+
+  .stats {
+    padding: 24px;
+  }
+  .block_title_s {
+    margin-bottom: 16px;
+  }
+  .stats_top,
+  .stats_btm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .stats_top .stats_card {
+    width: 100% !important;
+  }
+  .stats_card {
+    padding: 16px 20px;
+  }
+  .paid_summ {
+    padding: 16px 5px;
+  }
+  .paid_summ h4 {
+    font-size: 50px;
+  }
+  .activs_title {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .activs_desc {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .advanatages {
+    margin-top: 10px;
+    padding: 16px 20px;
+  }
+  .advanatages_title h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .advanatages_title p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .advantage_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .advantage_card {
+    height: auto;
+  }
+  .advantage_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+  }
+  .advantage_card img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .advantage_card p,
+  .advantage_card span {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+  .faq_title h3 {
+    margin-top: 36px;
+    font-size: 35px;
+  }
+
+  .faq_title {
+    margin-bottom: 22px;
+  }
+
+  .faq_item {
+    padding: 20px 0;
+  }
+
+  .faq_quests_btn {
+    margin-bottom: 32px;
+  }
+
+  .faq_quests_btn button {
+    width: 100%;
+    text-align: center;
+  }
+  .contact_form {
+    padding-top: 44px;
+  }
+
+  .contact_form_wrapper {
+    flex-direction: column;
+  }
+
+  .contacts_desc,
+  .form {
+    width: 100%;
+  }
+  .contacts_desc h3 {
+    font-size: 20px;
+  }
+  .form_inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .form .main_btn {
+    width: 100%;
+  }
+  .footer_left div,
+  .footer_right div,
+  .footer_links {
+    flex-wrap: wrap;
+  }
+  .pl {
+    padding: 0;
+  }
+  .footer_links h3:nth-child(1) {
+    width: 100%;
+  }
+  .footer_wrapper {
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+  .policy {
+    justify-content: center;
+  }
+  .advanatages_title p {
+    line-height: 150%;
+    padding: 0 20px;
+  }
+  .advanatages_title p br {
+    display: block;
+  }
+  .president {
+    background: url(../assets/images/man-mob.png);
+  }
+
+  .president_contacts {
+    border-radius: 8px;
+
+    backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.15);
+    width: 100%;
+  }
+  .steps {
+    padding-bottom: 24px;
+  }
 }
