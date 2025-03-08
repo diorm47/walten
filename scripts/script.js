@@ -26,6 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function toggleMenu() {
-  document.querySelector(".overlay").classList.toggle("visible_overlay");
+  document.querySelector(".overlay1").classList.toggle("visible_overlay");
   document.querySelector(".mob_menu").classList.toggle("visible_mob_menu");
+}
+
+
+function toggleForm() {
+  document.querySelector(".overlay2").classList.toggle("visible_overlay");
+  document.querySelector(".fixed_form").classList.toggle("visible_fixed_form");
 }

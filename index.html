@@ -12,7 +12,12 @@
         <nav>
           <div class="nav_wrapper container">
             <div class="nav_left">
-              <img  onclick="toggleMenu()" class="menu_btn" src="./assets/icons/menu-icon.svg" alt="" />
+              <img
+                onclick="toggleMenu()"
+                class="menu_btn"
+                src="./assets/icons/menu-icon.svg"
+                alt=""
+              />
               <a href="./index.html">
                 <img class="nav_logo" src="./assets/icons/logo.png" alt="" />
               </a>
@@ -31,7 +36,9 @@
               <a class="nav_phone_desc" href="tel:+971 (50) 973 3497"
                 ><p>+971 (50) 973 3497</p></a
               >
-              <button class="main_btn">Оставить заявку</button>
+              <button class="main_btn" onclick="toggleForm()">
+                Оставить заявку
+              </button>
             </div>
           </div>
         </nav>
@@ -41,7 +48,9 @@
             <span> Пассивный доход</span> с ежеквартальными выплатами уже
             <span>с первого дня инвестиций</span>
           </h1>
-          <button class="header_btn">Запросить информацию</button>
+          <button class="header_btn" onclick="toggleForm()">
+            Запросить информацию
+          </button>
         </div>
       </header>
 
@@ -688,7 +697,7 @@
       </footer>
     </div>
 
-    <div class="overlay" onclick="toggleMenu()"></div>
+    <div class="overlay overlay1" onclick="toggleMenu()"></div>
 
     <div class="mob_menu">
       <div class="mob_menu_top">
@@ -716,7 +725,38 @@
           <a href="#"><img src="./assets/icons/tg.svg" alt="" /></a>
         </div>
 
-        <button class="main_btn">Оставить заявку</button>
+        <button class="main_btn"  onclick="toggleForm()">Оставить заявку</button>
+      </div>
+    </div>
+
+    <div class="overlay overlay2" onclick="toggleForm()"></div>
+
+    <div class="fixed_form">
+      <div class="fixed_form_title">
+        <h2>Свяжитесь с нами для персональной консультации</h2>
+        <img
+          class="close_menu"
+          onclick="toggleForm()"
+          src="./assets/icons/close-menu-black.svg"
+          alt=""
+        />
+      </div>
+      <div class="fixed_form_inputs">
+        <input class="fixed_form_input" type="text" placeholder="Имя *" />
+        <input class="fixed_form_input" type="text" placeholder="E-mail *" />
+        <input class="fixed_form_input" type="text" placeholder="Компания *" />
+        <textarea
+          class="fixed_form_input"
+          name=""
+          id=""
+          placeholder="Сообщение *"
+        ></textarea>
+        <div class="confirm">
+          <input type="checkbox" checked name="" id="" />
+          <p>Согласие c политикой обработки персональных данных</p>
+        </div>
+        <button class="main_btn send_btn">Отправить</button>
+        <button class="main_btn cancel_btn">Отправить</button>
       </div>
     </div>
 
