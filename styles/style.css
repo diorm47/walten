@@ -165,7 +165,7 @@ nav {
   line-height: 120%;
   letter-spacing: 1.2%;
   text-align: left;
-
+  padding: 16px 0px 16px 0px;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
@@ -233,7 +233,7 @@ nav {
 }
 
 .about_company {
-  padding-bottom: 150px;
+  padding-bottom: 148px;
 }
 
 .about_company {
@@ -344,7 +344,7 @@ nav {
   box-sizing: border-box;
   border: 0.5px solid rgb(211, 206, 190);
   border-radius: 8px;
-  padding: 24px;
+  padding: 28px;
   background: rgba(255, 255, 255, 0.6);
 }
 
@@ -392,7 +392,7 @@ nav {
   background: url(../assets/images/step-5.png);
   background-size: cover;
   width: 33.333%;
-  height: 620px;
+  height: 690px;
   border-radius: 8px;
   padding: 24px;
   display: flex;
@@ -468,7 +468,7 @@ nav {
   padding: 30px 24px;
 
   color: rgb(255, 255, 255);
-  font-family: "Berthold Akzidenz Grotesk";
+  font-family: Avenir Next300;
   font-size: 45px;
 
   line-height: 120%;
@@ -477,7 +477,10 @@ nav {
   text-transform: uppercase;
   margin-bottom: 26px;
 }
-
+.president_desc h2 span {
+  font-family: Avenir Next500;
+  
+}
 .president_desc_text p {
   color: rgb(255, 255, 255);
   font-family: Avenir Next400;
@@ -548,6 +551,9 @@ nav {
 .stats {
   padding: 95px 0 90px;
 }
+.stats .block_title  {
+  margin-bottom: 45px;
+}
 
 .block_title_s h2 {
   color: rgb(0, 52, 72);
@@ -575,7 +581,7 @@ nav {
   box-sizing: border-box;
   border-bottom: 6px solid rgb(167, 149, 109);
   border-radius: 16px;
-  padding: 35px 20px;
+  padding: 33px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -912,7 +918,7 @@ nav {
 }
 
 .contact_form {
-  padding: 92px 0 32px;
+  padding: 90px 0 30px;
   background: rgb(85, 130, 160);
 }
 .contact_form_wrapper {
@@ -994,6 +1000,7 @@ nav {
   align-items: center;
   gap: 4px;
   margin: 16px 0;
+  margin-top: 10px;
 }
 
 .confirm input {
@@ -1505,7 +1512,7 @@ footer a h3:hover,
   .president_desc h2 {
     padding: 0;
     color: rgb(255, 255, 255);
-    font-family: Berthold Akzidenz Grotesk;
+    font-family: "Berthold";
     font-size: 35px;
     font-weight: 500;
     line-height: 120%;
